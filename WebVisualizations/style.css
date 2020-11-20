@@ -1,0 +1,53 @@
+
+
+
+
+.navbar {
+    background: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.greentext {
+    color: #33cccc;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.sidebar {
+    float: left;
+}
+
+.main-content {
+    float: right;
+}
+
+.greenback {
+    background:  #33cccc;
+    color: white;
+}
+
+.back_white {
+    background: white;
+}
+
+.white_text {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .navbar-nav li {  
+      padding: 10px;
+    }
+
+    /* Hide the navbar at res under 480px:
+    .navbar ul { 
+      visibility: hidden;
+    }*/
+  }
+
+  .center {
+    text-align: center;
+  }
+
+
