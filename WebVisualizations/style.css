@@ -35,15 +35,14 @@
     color: white;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .navbar-nav li {  
       padding: 10px;
     }
+    .navbar-expand-md{
+        background-color: #33cccc !important;
+        }
 
-    /* Hide the navbar at res under 480px:
-    .navbar ul { 
-      visibility: hidden;
-    }*/
   }
 
   .center {
